@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+<body>
+    <!-- nav.navbar.navbar-fixed-top.navbar-light.bg-light navbar-expand-lg -->
+    <nav class="navbar  fixed-top navbar-dark bg-dark navbar-expand-lg">
+        <a href="#" class="navbar-brand">
+            Home
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#LandNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#LandNav"></button> -->
+        <div class="collapse navbar-collapse" id="LandNav">
+            <ul class="navbar-nav mr-4"> 
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>               
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- header -->
+    <header class="header">
+       <div class="overlay"></div>
+       <div class="container">
+            <div class="desc">
+                <h1>Мои курсы</h1>
+                <p>Добро пожаловать на мои курсы</p>
+                <p>
+                <button class="btn btn-lg btn-primary">
+                    Подписаться
+                </button></p>
+            </div>
+       </div>      
+    </header>
+    <!-- end header -->
+
+    <!-- about -->
+    <div class="about" id="about">
+        <div class="container">
+            <h1 class="text-center">Об авторе</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12" id="div-img">
+                    <img src="image/фото в вк.jpg" alt="no-image" class="img-fluid">
+                    <span class="text-justify">Веб-разработчик</span>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 about-me">
+                    <h3>Мишин Станислав</h3>
+                    <p> Разработка веб-дизайна и веб приложений.
+                        Обучение основам HTML, CSS, Bootstrap
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+
+    <!-- portfolio -->
+    <div class="portfolio" id="portfolio">
+        <h1 class="text-center">
+            Курсы
+        </h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg col-md col-sm">
+                    <img src="https://via.placeholder.com/200" alt="no" class="img-fluid">
+                </div>
+                <div class="col-lg col-md col-sm">
+                    <img src="https://via.placeholder.com/200" alt="no" class="img-fluid">
+                </div>
+                <div class="col-lg col-md col-sm">
+                    <img src="https://via.placeholder.com/200" alt="no" class="img-fluid">
+                </div>
+                <div class="col-lg col-md col-sm">
+                    <img src="https://via.placeholder.com/200" alt="no" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- end portfolio -->
+
+    <!-- rewiew -->
+    <div class="blog" id="blog">
+        <div class="container">
+            <h1 class="text-center">Отзывы</h1>
+            <div class="row">
+
+                <div class="col-lg-3 col-md-3 card">
+                    <div class="card-img">
+                        <img src="image/rewiew1.jpg" alt="" class="img-fluid">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Иван Коробков
+                            </h4>
+                            <p class="card-text">
+                                Самый крутой курс который я видел. Спасибо Станислав !!!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 card">
+                    <div class="card-img">
+                        <img src="image/rewiew2.jpg" alt="" class="img-fluid">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                               Катрин Иванова
+                            </h4>
+                            <p class="card-text">
+                                Легко, доступно, понятно. Спасибо
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 card">
+                    <div class="card-img">
+                        <img src="image/rewiew3.jpg" alt="" class="img-fluid">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                              Махаджарма Эмбулдаджи
+                            </h4>
+                            <p class="card-text">
+                                Это было очень круто. Благодарю курсу я нашел работу на 200 000 доларов
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 card">
+                    <div class="card-img">
+                        <img src="image/rewiew4.jpg" alt="" class="img-fluid">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                              Севастьяна Олиповна
+                            </h4>
+                            <p class="card-text">
+                                Я получила базовые знания, теперь я профессионал.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end rewiew -->
+
+    <!-- Contacts -->
+    <div class="contact-form" id="contacts">
+        <div class="container">
+            <form action="https://developer.mozilla.org/ru/docs/Web/CSS/box-shadow">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h1 class="text-center">Оформить подписку</h1>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 right">
+                        <div class="form-group">
+                            <input type="text" placeholder="You name" class="form-control form-control-lg">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="You email" name="" id="" class="form-control form-control-lg">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="You comment" name="" id="" cols="5" rows="3"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-primary btn-block" name="" id="" value="Send">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contacts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
